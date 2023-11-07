@@ -1,0 +1,45 @@
+﻿  Admin.cpp
+  News.cpp
+E:\DsProject\NewsManagment\NewsManagment\News.cpp(11,6): error C2512: 'User': no appropriate default constructor available
+E:\DsProject\NewsManagment\NewsManagment\User.h(4,7): message : see declaration of 'User'
+  NewsManagment.cpp
+  User.cpp
+E:\DsProject\NewsManagment\NewsManagment\User.cpp(16,6): error C2512: 'User': no appropriate default constructor available
+E:\DsProject\NewsManagment\NewsManagment\User.h(4,7): message : see declaration of 'User'
+E:\DsProject\NewsManagment\NewsManagment\User.cpp(20,14): error C2511: 'std::string User::displayAccount(std::string)': overloaded member function not found in 'User'
+E:\DsProject\NewsManagment\NewsManagment\User.h(4,7): message : see declaration of 'User'
+E:\DsProject\NewsManagment\NewsManagment\User.cpp(24,28): error C2597: illegal reference to non-static member 'User::username'
+E:\DsProject\NewsManagment\NewsManagment\User.h(6,17): message : see declaration of 'User::username'
+E:\DsProject\NewsManagment\NewsManagment\User.cpp(26,15): error C2597: illegal reference to non-static member 'User::username'
+E:\DsProject\NewsManagment\NewsManagment\User.h(6,17): message : see declaration of 'User::username'
+E:\DsProject\NewsManagment\NewsManagment\User.cpp(26,23): error C2597: illegal reference to non-static member 'User::username'
+E:\DsProject\NewsManagment\NewsManagment\User.cpp(26,23): error C3867: 'User::username': non-standard syntax; use '&' to create a pointer to member
+E:\DsProject\NewsManagment\NewsManagment\User.cpp(26,23): error C2568: '[': unable to resolve function overload
+E:\DsProject\NewsManagment\NewsManagment\User.cpp(26,32): error C2597: illegal reference to non-static member 'User::username'
+E:\DsProject\NewsManagment\NewsManagment\User.h(6,17): message : see declaration of 'User::username'
+E:\DsProject\NewsManagment\NewsManagment\User.cpp(30,12): error C2597: illegal reference to non-static member 'User::username'
+E:\DsProject\NewsManagment\NewsManagment\User.h(6,17): message : see declaration of 'User::username'
+E:\DsProject\NewsManagment\NewsManagment\User.cpp(33,12): error C2511: 'void User::registerUser(std::string,std::string)': overloaded member function not found in 'User'
+E:\DsProject\NewsManagment\NewsManagment\User.h(4,7): message : see declaration of 'User'
+E:\DsProject\NewsManagment\NewsManagment\User.cpp(46,12): error C2511: 'bool User::loginUser(std::string,std::string)': overloaded member function not found in 'User'
+E:\DsProject\NewsManagment\NewsManagment\User.h(4,7): message : see declaration of 'User'
+E:\DsProject\NewsManagment\NewsManagment\User.cpp(57,12): error C2511: 'void User::login(std::string,std::string)': overloaded member function not found in 'User'
+E:\DsProject\NewsManagment\NewsManagment\User.h(4,7): message : see declaration of 'User'
+E:\DsProject\NewsManagment\NewsManagment\User.cpp(69,17): error C2039: 'showNewsByCate': is not a member of 'User'
+E:\DsProject\NewsManagment\NewsManagment\User.h(4,7): message : see declaration of 'User'
+E:\DsProject\NewsManagment\NewsManagment\User.cpp(78,21): error C2039: 'showNewsByCate': is not a member of 'User'
+E:\DsProject\NewsManagment\NewsManagment\User.h(4,7): message : see declaration of 'User'
+E:\DsProject\NewsManagment\NewsManagment\User.cpp(112,12): error C2511: 'void User::saveUsersToFile(void)': overloaded member function not found in 'User'
+E:\DsProject\NewsManagment\NewsManagment\User.h(4,7): message : see declaration of 'User'
+E:\DsProject\NewsManagment\NewsManagment\User.cpp(138,14): error C2511: 'std::string User::getUsername(void)': overloaded member function not found in 'User'
+E:\DsProject\NewsManagment\NewsManagment\User.h(4,7): message : see declaration of 'User'
+E:\DsProject\NewsManagment\NewsManagment\User.cpp(143,12): error C2039: 'processes_for_user': is not a member of 'User'
+E:\DsProject\NewsManagment\NewsManagment\User.h(4,7): message : see declaration of 'User'
+E:\DsProject\NewsManagment\NewsManagment\User.cpp(157,20): error C2660: 'User::displayAccount': function does not take 1 arguments
+E:\DsProject\NewsManagment\NewsManagment\User.h(16,17): message : see declaration of 'User::displayAccount'
+E:\DsProject\NewsManagment\NewsManagment\User.cpp(157,20): message : while trying to match the argument list '(std::string)'
+E:\DsProject\NewsManagment\NewsManagment\User.cpp(177,12): error C2511: 'void User::favCategories(std::string)': overloaded member function not found in 'User'
+E:\DsProject\NewsManagment\NewsManagment\User.h(4,7): message : see declaration of 'User'
+E:\DsProject\NewsManagment\NewsManagment\User.cpp(217,12): error C2039: 'showNewsByCate': is not a member of 'User'
+E:\DsProject\NewsManagment\NewsManagment\User.h(4,7): message : see declaration of 'User'
+  Generating Code...
